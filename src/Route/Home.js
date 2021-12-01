@@ -1,6 +1,6 @@
 import React from 'react';
 import Education from '../Education/Education';
-import Header from '../Header/Header';
+
 import AboutMe from './AboutMe';
 import { Contact } from './Contact';
 

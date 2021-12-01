@@ -3,12 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header/Header';
 import Home from './Route/Home';
 import { Contact } from './Route/Contact';
-import Education from './Education/Education';
 import Footer from './Footer/Footer';
 import AboutMe from './Route/AboutMe';
-// import { Route } from 'react-router';
+import { Route } from 'react-router';
 // import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Portfolio from './Route/Portfolio';
 import NotFound from './Route/NotFound';
 function App() {
