@@ -6,10 +6,11 @@ const Footer = () => {
             <Container fluid className="text-center text-md-left">
                 <Row className="text-white">
                     <Col md="6">
-                        <h5 className="title">Footer Content</h5>
+                        <h5 className="title">Contact Info</h5>
                         <p>
-                            Our best tour planning at low cost
+                            Email:mehedi1234.mh@gmail.com
                         </p>
+                        <p>Phone:01777030706</p>
                     </Col>
                     <Col md="6">
                         <h5 className="title">Links</h5>
@@ -32,7 +33,7 @@ const Footer = () => {
             </Container>
             <div className="footer-copyright text-white text-center py-3">
                 <Container fluid>
-                    Copyright &copy; {new Date().getFullYear()} - All Rights Reserved - <span className="text-warning">MD.MEHEDI HASAN</span>
+                    Copyright &copy; {new Date().getFullYear()} - All Rights Reserved - <span className="text-warning">MEHEDI</span>
                 </Container>
             </div>
         </div>

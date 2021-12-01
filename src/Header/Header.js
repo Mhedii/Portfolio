@@ -19,7 +19,7 @@ const Header = () => {
                             <Nav.Link href="/home" className="text-white">Home</Nav.Link>
                             <Nav.Link href="/aboutme" className="text-white">About Me</Nav.Link>
                             <Nav.Link href="/portfolio" className="text-white">Portfolio</Nav.Link>
-                            <Nav.Link href="/services" className="text-white">Services</Nav.Link>
+                            <Nav.Link href="/blogs" className="text-white">Blogs</Nav.Link>
                             <Nav.Link href="/contact" className="text-white">Contact Me</Nav.Link>
 
                         </Nav>

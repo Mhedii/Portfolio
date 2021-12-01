@@ -1,8 +1,9 @@
 import React from 'react';
-import Education from '../Education/Education';
+// import Education from '../Education/Education';
 
 import AboutMe from './AboutMe';
 import { Contact } from './Contact';
+import FirstPageProjects from './FirstPageProjects';
 
 const Home = () => {
     // var link = document.createElement('a');
@@ -44,7 +45,8 @@ const Home = () => {
 
                 </div>
             </div>
-            <Education></Education>
+            {/* <Education></Education> */}
+            <FirstPageProjects />
             <AboutMe></AboutMe>
             <Contact></Contact>
 

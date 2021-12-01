@@ -10,6 +10,7 @@ import { Route } from 'react-router';
 import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Portfolio from './Route/Portfolio';
 import NotFound from './Route/NotFound';
+import Blogs from './Route/Blogs';
 function App() {
   return (
     <div className="App" style={{ backgroundColor: "#0F0826" }}>
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/home' element={<Home />} />
           <Route exact path='/aboutme' element={<AboutMe />} />
           <Route exact path='/contact' element={<Contact />} />
+          <Route exact path='/blogs' element={<Blogs />} />
           <Route exact path='/portfolio' element={<Portfolio />} />
           <Route exact path='/*' element={<NotFound />} />
 
