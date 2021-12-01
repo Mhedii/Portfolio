@@ -1,4 +1,8 @@
 import React from 'react';
+import Education from '../Education/Education';
+import Header from '../Header/Header';
+import AboutMe from './AboutMe';
+import { Contact } from './Contact';
 
 const Home = () => {
     // var link = document.createElement('a');
@@ -6,7 +10,8 @@ const Home = () => {
     // link.download = 'Resume.pdf';
     // link.dispatchEvent(new MouseEvent('click'));
     return (
-        <div className="" style={{ backgroundColor: "#212520" }}>
+        <div className="" >
+
             <div className="text-white align-items-center row">
                 <div className="col-lg-6 justify-content-center">
 
@@ -39,6 +44,10 @@ const Home = () => {
 
                 </div>
             </div>
+            <Education></Education>
+            <AboutMe></AboutMe>
+            <Contact></Contact>
+
         </div >
 
     );

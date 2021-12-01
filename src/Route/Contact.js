@@ -17,6 +17,7 @@ export const Contact = () => {
     };
     return (
         <div className="container">
+            <h3 class="card-title text-white fs-1">Contact Me</h3>
             <form ref={form} onSubmit={sendEmail}>
                 <div className="row pt-5 mx-auto">
                     <div className="col-8 form-group mx-auto">
